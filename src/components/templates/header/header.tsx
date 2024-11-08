@@ -8,14 +8,14 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="max-w-[1280px] mx-auto flex justify-between align-middle p-5">
+        <div className="max-w-[1280px] mx-auto flex justify-between items-center p-5">
           {/* Brand Logo */}
           <Link href="#" className="flex">
             <Logo />
           </Link>
 
           {/* Navbar */}
-          <div className="hidden md:flex  align-middle justify-center gap-12">
+          <div className="hidden md:flex  items-center justify-center gap-12">
             <Navbar />
             <div className="flex cursor-default">
               <p className="my-auto">해외 개발자 활용 서비스</p>
@@ -24,7 +24,9 @@ const Header = () => {
 
           {/* Contact */}
           <div className="hidden md:flex">
-            <Button variant="primary">문의하기</Button>
+            <Button variant="primary" link="#footer">
+              문의하기
+            </Button>
           </div>
 
           <div className="md:hidden">

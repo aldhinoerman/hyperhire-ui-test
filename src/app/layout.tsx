@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import '@/assets/styles/slick.css';
+import '@/assets/styles/slick-theme.css';
 import { Footer, Header } from '@/components';
 
 export const metadata: Metadata = {
@@ -16,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <main className="max-w-[1280px] min-h-screen p-5 mx-auto">{children}</main>
+        <main className="max-w-[1280px] p-5 mx-auto">{children}</main>
         <Footer />
       </body>
     </html>

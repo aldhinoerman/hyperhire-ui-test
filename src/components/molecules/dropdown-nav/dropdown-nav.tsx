@@ -14,7 +14,7 @@ const DropdownNav: React.FC<DropdownProps> = ({ title, items }) => {
   const pathname = usePathname();
   return (
     <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn-link flex align-middle gap-2 text-white">
+      <div tabIndex={0} role="button" className="btn-link flex items-center gap-2 text-white">
         {title}
         <div className="w-4">
           <ChevronDownIcon />

@@ -2,6 +2,8 @@ import React from 'react';
 
 type ButtonVariant = 'primary' | 'link';
 
+type BubbleVariant = 'info' | 'success';
+
 interface INavbar {
   key: string;
   label: string;
@@ -13,4 +15,9 @@ interface IServiceCard {
   icon: React.ReactNode;
 }
 
-export type { INavbar, ButtonVariant, IServiceCard };
+interface IServiceItem {
+  icon: React.ReactNode;
+  title: string;
+}
+
+export type { INavbar, ButtonVariant, IServiceCard, BubbleVariant, IServiceItem };
