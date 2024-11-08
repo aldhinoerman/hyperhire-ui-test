@@ -1,5 +1,4 @@
-import { ButtonVariant } from '@/utils';
-import { BUTTON_VARIANT } from '@/utils/enum';
+import { BUTTON_VARIANT, ButtonVariant } from '@/utils';
 import Link from 'next/link';
 import React from 'react';
 

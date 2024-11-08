@@ -1,4 +1,5 @@
-import { Icon } from '@/components';
+import React from 'react';
+import { Icon } from '@/components/atoms/icon';
 import { PhotoIcon } from '@heroicons/react/24/outline';
 import { CubeIcon } from '@heroicons/react/24/outline';
 import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
