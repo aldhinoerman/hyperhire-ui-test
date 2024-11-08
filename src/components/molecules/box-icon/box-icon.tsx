@@ -5,7 +5,7 @@ interface BoxIconProps {
 }
 
 const BoxIcon: React.FC<BoxIconProps> = ({ icon }) => {
-  return <div className="flex justify-center align-middle p-2 bg-secondary rounded-md">{icon}</div>;
+  return <div className="flex justify-center items-center p-2 bg-secondary rounded-md">{icon}</div>;
 };
 
 export default BoxIcon;

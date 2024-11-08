@@ -1,4 +1,7 @@
 import { Icon } from '@/components';
+import { PhotoIcon } from '@heroicons/react/24/outline';
+import { CubeIcon } from '@heroicons/react/24/outline';
+import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import { Cog6ToothIcon } from '@heroicons/react/24/solid';
 import { UserIcon } from '@heroicons/react/24/solid';
 import { CodeBracketIcon } from '@heroicons/react/24/solid';
@@ -26,4 +29,23 @@ const serviceItems = [
   },
 ];
 
-export { serviceItems };
+const heroServices = [
+  {
+    icon: <ComputerDesktopIcon className="w-4 h-4" />,
+    title: '한국어 능력',
+  },
+  {
+    icon: <PhotoIcon className="w-4 h-4" />,
+    title: '업무 수행 능력',
+  },
+  {
+    icon: <CubeIcon className="w-4 h-4" />,
+    title: '겸업 여부',
+  },
+  {
+    icon: <Icon name="target" />,
+    title: '평판 조회',
+  },
+];
+
+export { serviceItems, heroServices };
