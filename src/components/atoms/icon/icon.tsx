@@ -23,7 +23,7 @@ const Icon: React.FC<IconProps> = ({ name, className }) => {
       default:
         return null;
     }
-  }, [name]);
+  }, [name, className]);
 
   return renderIcon();
 };

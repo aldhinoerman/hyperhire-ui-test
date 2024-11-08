@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import { ProfileCard } from '@/components/molecules';
 import React from 'react';
 import dynamic from 'next/dynamic';

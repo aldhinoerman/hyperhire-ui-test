@@ -5,7 +5,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer id='footer' className="bg-whiteblue text-dark">
+    <footer id="footer" className="bg-whiteblue text-dark">
       <div className="max-w-[1280px] mx-auto py-16 px-5">
         {/* Top Footer */}
         <div className="grid md:grid-cols-[0.75fr_2fr] gap-8">
