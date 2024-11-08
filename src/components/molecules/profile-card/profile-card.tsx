@@ -1,4 +1,3 @@
-import { Images } from '@/assets';
 import { Avatar } from '@/components/atoms';
 import { Card, Tag } from '@/components/molecules';
 import Image from 'next/image';

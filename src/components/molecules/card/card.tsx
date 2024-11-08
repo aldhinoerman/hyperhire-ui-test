@@ -6,10 +6,7 @@ interface CardProps extends React.PropsWithChildren {
 
 const Card: React.FC<CardProps> = ({ children, className }) => {
   return (
-    <div
-      className={`bg-white w-full rounded-lg shadow-lg py-9 px-4  ${className ? className : ''}`}>
-      {children}
-    </div>
+    <div className={`bg-white w-full rounded-lg shadow-lg py-9 px-4  ${className ? className : ''}`}>{children}</div>
   );
 };
 
