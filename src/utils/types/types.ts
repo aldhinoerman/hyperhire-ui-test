@@ -20,4 +20,11 @@ interface IServiceItem {
   title: string;
 }
 
-export type { INavbar, ButtonVariant, IServiceCard, BubbleVariant, IServiceItem };
+interface IProfileCard {
+  img: string;
+  title: string;
+  tag: string;
+  skills: string[];
+}
+
+export type { INavbar, ButtonVariant, IServiceCard, BubbleVariant, IServiceItem, IProfileCard };
