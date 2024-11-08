@@ -1,34 +1,15 @@
-import { Images } from '@/assets';
+'use client';
 import { BubbleChat } from '@/components/molecules';
 import { Benefits, CardSlider, Services } from '@/components/organisms';
-import { heroServices } from '@/utils';
+import { heroServices, IProfileCard } from '@/utils';
 import { CurrencyDollarIcon } from '@heroicons/react/24/solid';
 import React from 'react';
 
-const Hero = () => {
-  const cardsData = [
-    {
-      name: 'Abhishek Gupta',
-      title: '마케팅 - 2y+',
-      skills: ['마케팅 콘텐츠 제작', '인스타그램 관리', '트위터 관리', '블로그 글 작성'],
-      image: 'https://via.placeholder.com/100',
-      flag: Images.Flag.src,
-    },
-    {
-      name: 'Abhishek Gupta',
-      title: '마케팅 - 2y+',
-      skills: ['마케팅 콘텐츠 제작', '인스타그램 관리', '트위터 관리', '블로그 글 작성'],
-      image: 'https://via.placeholder.com/100',
-      flag: Images.Flag.src,
-    },
-    {
-      name: 'Abhishek Gupta',
-      title: '마케팅 - 2y+',
-      skills: ['마케팅 콘텐츠 제작', '인스타그램 관리', '트위터 관리', '블로그 글 작성'],
-      image: 'https://via.placeholder.com/100',
-      flag: Images.Flag.src,
-    },
-  ];
+interface HeroProps {
+  profiles: IProfileCard[];
+}
+
+const Hero: React.FC<HeroProps> = ({ profiles }) => {
   return (
     <section id="hero">
       {/* Top Hero */}
@@ -58,7 +39,7 @@ const Hero = () => {
             />
           </div>
           <div>
-            <CardSlider items={cardsData} />
+            <CardSlider items={profiles} />
           </div>
         </div>
       </div>
