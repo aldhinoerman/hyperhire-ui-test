@@ -20,7 +20,7 @@ const DropdownNav: React.FC<DropdownProps> = ({ title, items }) => {
           <ChevronDownIcon />
         </div>
       </div>
-      <ul tabIndex={0} className="dropdown-content menu bg-white rounded-box z-[1] w-52 p-2 shadow text-dark">
+      <ul tabIndex={0} className="dropdown-content menu bg-white rounded-box z-50 w-52 p-2 shadow text-dark">
         {items?.length > 0 &&
           items.map((obj: INavbar, idx: number) => (
             <li key={idx}>
