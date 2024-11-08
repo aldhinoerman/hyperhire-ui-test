@@ -1,9 +1,6 @@
 import Image from "next/image";
+import { HomePage } from "@/components";
 
 export default function Home() {
-  return (
-    <div>
-      Test
-    </div>
-  );
+  return <HomePage />
 }
