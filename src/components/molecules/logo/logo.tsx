@@ -2,7 +2,11 @@ import { Icon } from '@/components/atoms';
 import React from 'react';
 
 const Logo = () => {
-  return <Icon name="logo" />;
+  return (
+    <div className="my-auto">
+      <Icon name="logo" />
+    </div>
+  );
 };
 
 export default Logo;

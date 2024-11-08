@@ -1,9 +1,13 @@
-import React from 'react'
+import { DropdownNav } from '@/components/molecules';
+import { navbarItems } from '@/utils';
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav>Navbar</nav>
-  )
-}
+    <nav className="flex my-auto">
+      <DropdownNav title="채용" items={navbarItems} />
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
