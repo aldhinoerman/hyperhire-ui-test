@@ -1,7 +1,16 @@
 import React from 'react';
 
-const Card: React.FC<React.PropsWithChildren> = ({ children }) => {
-  return <div className="bg-white rounded-lg shadow-lg p-9">{children}</div>;
+interface CardProps extends React.PropsWithChildren {
+  className?: string;
+}
+
+const Card: React.FC<CardProps> = ({ children, className }) => {
+  return (
+    <div
+      className={`bg-white w-full rounded-lg shadow-lg py-9 px-4  ${className ? className : ''}`}>
+      {children}
+    </div>
+  );
 };
 
 export default Card;

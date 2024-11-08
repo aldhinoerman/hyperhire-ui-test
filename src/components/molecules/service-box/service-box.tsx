@@ -18,7 +18,7 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({ icon, title }) => {
       </div>
 
       {/* Desktop View */}
-      <div className="hidden md:flex animate-fadeIn items-center gap-6 md: w-[200px] lg:w-[275] xl:w-[330px] bg-white bg-opacity-20 p-4 rounded-md">
+      <div className="hidden md:flex animate-fadeIn items-center gap-6 md: w-[225px] lg:w-[300] xl:w-[375px] bg-white bg-opacity-20 p-4 rounded-md">
         <div className="bg-white bg-opacity-40 rounded-md p-2">{icon}</div>
         <div>
           <p className="font-bold">{title}</p>

@@ -1,3 +1,4 @@
+import { Images } from '@/assets';
 import { BubbleChat } from '@/components/molecules';
 import { Benefits, CardSlider, Services } from '@/components/organisms';
 import { heroServices } from '@/utils';
@@ -10,22 +11,22 @@ const Hero = () => {
       name: 'Abhishek Gupta',
       title: '마케팅 - 2y+',
       skills: ['마케팅 콘텐츠 제작', '인스타그램 관리', '트위터 관리', '블로그 글 작성'],
-      image: 'https://via.placeholder.com/100', // Placeholder image
-      flag: 'https://via.placeholder.com/20x15?text=🏳️', // Placeholder flag image
+      image: 'https://via.placeholder.com/100',
+      flag: Images.Flag.src,
     },
     {
       name: 'Abhishek Gupta',
       title: '마케팅 - 2y+',
       skills: ['마케팅 콘텐츠 제작', '인스타그램 관리', '트위터 관리', '블로그 글 작성'],
-      image: 'https://via.placeholder.com/100', // Placeholder image
-      flag: 'https://via.placeholder.com/20x15?text=🏳️', // Placeholder flag image
+      image: 'https://via.placeholder.com/100',
+      flag: Images.Flag.src,
     },
     {
       name: 'Abhishek Gupta',
       title: '마케팅 - 2y+',
       skills: ['마케팅 콘텐츠 제작', '인스타그램 관리', '트위터 관리', '블로그 글 작성'],
-      image: 'https://via.placeholder.com/100', // Placeholder image
-      flag: 'https://via.placeholder.com/20x15?text=🏳️', // Placeholder flag image
+      image: 'https://via.placeholder.com/100',
+      flag: Images.Flag.src,
     },
   ];
   return (

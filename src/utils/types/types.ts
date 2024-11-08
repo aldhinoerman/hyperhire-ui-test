@@ -21,9 +21,10 @@ interface IServiceItem {
 }
 
 interface IProfileCard {
-  img: string;
+  flag: string;
+  image: string;
+  name: string;
   title: string;
-  tag: string;
   skills: string[];
 }
 
