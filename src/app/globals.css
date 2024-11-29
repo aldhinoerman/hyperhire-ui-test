@@ -18,8 +18,7 @@
 
   body,
   html {
-    @apply font-sans text-white;
-    background: linear-gradient(151.17deg, #26c2b9 8.69%, #288be7 126.06%);
+    @apply font-sans text-white bg-white;
     margin: 0;
     padding: 0;
     min-width: 100%;
@@ -34,6 +33,10 @@
       font-size: 16px;
     }
   }
+}
+
+.top-section {
+  background: linear-gradient(151.17deg, #26c2b9 8.69%, #288be7 126.06%);
 }
 
 .btn-link,

@@ -27,7 +27,7 @@ const Services: React.FC<ServicesProps> = ({ items }) => {
 
   return (
     <>
-      <div className="flex flex-wrap gap-2 md:hidden">
+      <div className="grid grid-cols-2 grid-rows-2 gap-2 max-w-xs md:hidden">
         {items?.length > 0 && items.map((obj: IServiceItem, idx: number) => <ServiceBox title={obj.title} key={idx} />)}
       </div>
 
