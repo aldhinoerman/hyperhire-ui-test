@@ -10,7 +10,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ items }) =>
   items?.length > 0 &&
   items.map((obj: IServiceCard, idx: number) => {
     return (
-      <div className="flex flex-col justify-between p-4 bg-white lg:w-[250px] xl:w-[185px] h-[175px]" key={idx}>
+      <div
+        className="flex flex-col justify-between p-4 bg-white w-[135px] min-[375px]:!w-[160px] sm:!w-[235px] xl:!w-[185px] h-[175px]"
+        key={idx}>
         <div className="w-10 h-10">
           <BoxIcon icon={obj.icon} />
         </div>

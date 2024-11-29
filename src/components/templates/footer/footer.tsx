@@ -13,7 +13,7 @@ const Footer = () => {
             <div>
               <Icon name="footer-logo" />
             </div>
-            <h5 className="font-semibold">우리는 국가의 장벽을 넘어 최고의 인재를 매칭해드립니다.</h5>
+            <h5 className="font-semibold whitespace-pre-wrap">{`우리는 국가의 장벽을 넘어 최고의 인재를 매\n칭해드립니다.`}</h5>
             <div className="flex flex-col gap-4">
               <p className="font-bold">010-0000-0000</p>
               <p className="font-bold">aaaaa@naver.com</p>
